@@ -10,7 +10,14 @@ export default function Home() {
 			<Title>PETRICHOR Official</Title>
 			<div className="flex flex-col gap-4 lg:w-3/5 lg:flex-row lg:gap-[10px]">
 				<section className="lg:flex-1">
-					<video autoPlay muted playsInline loop className="aspect-[3/4]">
+					<video
+						autoPlay
+						muted
+						playsInline
+						loop
+						preload="auto"
+						className="aspect-[3/4]"
+					>
 						<source src="/videos/0.webm" type="video/webm" />
 						<source src="/videos/0.mp4" type="video/mp4" />
 					</video>
