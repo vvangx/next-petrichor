@@ -16,6 +16,7 @@ export default function Home() {
 						playsInline
 						loop
 						preload="auto"
+						poster="/videos/poster.png"
 						className="aspect-[3/4]"
 					>
 						<source src="/videos/0.webm" type="video/webm" />
